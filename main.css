@@ -98,7 +98,7 @@ body
     }
 }
 
-@media only screen and (max-width:500px)
+@media only screen and (max-width:600px)
 {
     body
     {
@@ -137,8 +137,8 @@ body
     }
     .myHeader
     {
-        position: fixed;
+        position: relative;
         width: 100%;
-        height: 60px;
+        height: 100px;
     }
 }
