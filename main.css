@@ -45,7 +45,8 @@ body
 {
     body
     {
-        overflow: auto !important;
+        overflow-x: hidden !important;
+        oveflow-y: auto;
     }
     #headerTitle
     {
