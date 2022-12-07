@@ -66,6 +66,12 @@ body
 
 @media only screen and (max-width:700px)
 {
+    
+    body
+    {
+        overflow-x: hidden !important;
+        overflow-y: auto;
+    }
     #headerTitle
     {
         top: 55px;
@@ -83,6 +89,12 @@ body
 
 @media only screen and (max-width:600px)
 {
+    
+    body
+    {
+        overflow-x: hidden !important;
+        overflow-y: auto;
+    }
     #headerTitle
     {
         top: 55px;
@@ -104,7 +116,6 @@ body
     {
         overflow-x: hidden !important;
         overflow-y: auto;
-        margin-right:0;
     }
     #headerTitle
     {
@@ -136,10 +147,12 @@ body
         width: 90%;
         height: 600px;
     }
-    .myHeader
+    #headerTitle
     {
+        top: 20px;
+        left: 40px;
+        font-size: 30px;
         position: relative;
-        width: 110%;
-        height: 60%;
+        display: block;
     }
 }
