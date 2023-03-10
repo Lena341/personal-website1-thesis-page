@@ -23,10 +23,10 @@ body
 #footerBg
 {
    background-color: rgb(172, 141, 235);
-   position: absolute;
+   position: fixed;
    bottom: 0;
    left: 0;
-   right: inherit;
+   right: 0;
    width: 100%;
    height: 50px;
 }
