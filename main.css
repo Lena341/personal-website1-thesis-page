@@ -7,17 +7,12 @@ body
 
 #myHeader
 {
-    display: block;
     background-image: url("forphotoshop1\ \(2\).png");
     width: 100%;
     height: 30%;
-}
-
-
-#headerTitle
-{
-    color: black;
-    font-weight: 200;
+    font-size:25px;
+    font-weight:200;
+    color:black;
 }
 
 #footerBg
